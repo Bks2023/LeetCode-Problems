@@ -1,7 +1,7 @@
 class Solution {
 public:
     int tribonacci(int n) {
-        vector<int> dp(40);
+        vector<int> dp(n+3);
         
         dp[0]=0;
         dp[1]=1;
